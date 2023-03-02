@@ -1,0 +1,35 @@
+body {
+    background: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 42px; 
+}
+
+button {
+    border: none;
+    padding: 10px 0 10px 0;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:active {
+    opacity: 80%;
+}
+
+#increment-btn {
+    background-color: darkred;
+}
+
+#save-btn {
+    background-color: green;
+}
