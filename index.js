@@ -24,17 +24,36 @@
 //2. Increment the count each time the button is clicked.
 //3. change the count el ID in the html to reflect the new count
 let countEl = document.getElementById("count-el")
+let saveEl = document.getElementById("save-el")
 let count = 0 
 
 function increment() {
-    count = count + 1
+    count += 1
     countEl.innerText = count
     console.log(count)
 }
+
 function save() {
+    let saveCount = count + " - "
+    saveEl.textContent += saveCount
+    count = 0
+    countEl.innerText = count
     console.log(count)
 }
 
+
+
+
+//let name = "Ryan"
+//let greeting = "Hi, my name is"
+
+//let myGreeting = greeting + " " + name + "!"
+//console.log(myGreeting)
+
+//let points = 4
+//let bonusPoints = "10"
+//let totalPoints = points + bonusPoints
+//console.log(totalPoints)
 
 
 
@@ -58,3 +77,10 @@ function save() {
 //console.log(lapsCompleted)
 
 
+//let welcomeEl = document.getElementById("welcome-el")
+//let name = "Ryan"
+//let greeting = "Welcome back "
+
+//welcomeEl.innerText = greeting + name 
+
+//welcomeEl.innerText += " hi"
